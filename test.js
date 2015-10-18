@@ -1,5 +1,5 @@
 var namespace = require('tessed').namespace
-var command = require('./')
+var command = require('./index')
 var alias = require('@cli/alias')
 var handler = require('@cli/handler')
 
