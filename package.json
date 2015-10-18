@@ -1,0 +1,36 @@
+{
+  "name": "@cli/command",
+  "version": "0.3.0",
+  "description": "command",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cli-js/command.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "flag",
+    "line",
+    "interface"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cli-js/command/issues"
+  },
+  "homepage": "https://github.com/cli-js/command#readme",
+  "dependencies": {
+    "as-array": "^2.0.0",
+    "ramda": "^0.18.0"
+  },
+  "devDependencies": {
+    "@cli/alias": "^0.3.0",
+    "@cli/handler": "^0.3.0",
+    "tap-spec": "^4.1.0",
+    "tessed": "^2.2.0"
+  }
+}
